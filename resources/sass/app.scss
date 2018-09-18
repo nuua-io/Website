@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: 'Catamaran', sans-serif;
+    @apply .text-grey-darkest;
+}
+
+.code {
+    font-family: 'Fira Mono', monospace;
+}
+
+a, a:focus, a:active {
+    color: inherit;
+    @apply .no-underline .outline-none;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+}
