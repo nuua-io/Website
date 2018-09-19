@@ -18,6 +18,8 @@
 release_date = (language) => {
     return language == 'nuua' ? 2019 : 'Unknown'
 }
+
+release_date -> ('nuua') // 2019
 </pre>
             </div>
             <div class="mt-12 text-sm text-grey-darkest">
