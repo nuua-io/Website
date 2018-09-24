@@ -663,6 +663,9 @@ module.exports = {
     '20': '5rem',
     '24': '6rem',
     '32': '8rem',
+    '40': '10rem',
+    '48': '12rem',
+    '56': '14rem',
   },
 
 
@@ -932,7 +935,7 @@ module.exports = {
 
   plugins: [
     require('tailwindcss/plugins/container')({
-      // center: true,
+      center: true,
       // padding: '1rem',
     }),
   ],

@@ -7,18 +7,22 @@
 
 * {
     font-family: 'Catamaran', sans-serif;
-    @apply .text-grey-darkest;
+    @apply .text-grey-darkest
+}
+
+.title {
+    font-family: 'Quantum'
 }
 
 .code {
-    font-family: 'Fira Mono', monospace;
+    font-family: 'Fira Mono', monospace
 }
 
 a, a:focus, a:active {
     color: inherit;
-    @apply .no-underline .outline-none;
+    @apply .no-underline .outline-none
 }
 
 input::-moz-focus-inner {
-    border: 0;
+    border: 0
 }
