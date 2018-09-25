@@ -25,7 +25,7 @@
                     </div>
                     <div class="p-6">
 <pre class="code leading-loose text-xs md:text-base">release_date = (language) => {
-return language == 'nuua' ? 2019 : 'Unknown'
+    return language == 'nuua' ? 2019 : 'Unknown'
 }
 
 release_date -> ('nuua') // 2019
