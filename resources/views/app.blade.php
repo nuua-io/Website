@@ -9,6 +9,19 @@
 
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     </head>
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+            var u="https://analytics.erik.cat/";
+            _paq.push(['setTrackerUrl', u+'piwik.php']);
+            _paq.push(['setSiteId', '2']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+        })();
+    </script>
     <body class="bg-grey-lighter">
     <div class="bg-black pt-32 pb-56 shadow white-text flex items-center justify-center">
         <div class="flex items-center flex-col">
