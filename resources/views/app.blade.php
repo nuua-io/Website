@@ -67,11 +67,15 @@ while (!is_released('nuua')) => show_msg('nuua')
                         </div>
                     </form>
                 </div>
-                <div class="mt-5 flex items-center justify-center -mx-4">
-                    <img src="{{ asset('svg/codefund.svg') }}" alt="Codefund" class="h-8 px-4">
-                    <img src="{{ asset('img/upc.png') }}" alt="UPC" class="h-16 px-4">
+                <div class="mt-4 flex items-center justify-center -mx-4">
+                    <a href="https://codefund.io/" class="px-4">
+                        <img src="{{ asset('svg/codefund.svg') }}" alt="Codefund" class="h-8">
+                    </a>
+                    <a href="https://www.upc.edu" class="px-4">
+                        <img src="{{ asset('img/upc.png') }}" alt="UPC" class="h-16">
+                    </a>
                 </div>
-                <div class="mt-5 flex justify-center">
+                <div class="mt-4 flex justify-center">
                     <div class="text-grey-dark">
                         &copy; Copyright {{ date('Y') }} <a class="text-black" href="https://erik.cat"> Erik Campobadal</a>. All rights reserved.
                     </div>
