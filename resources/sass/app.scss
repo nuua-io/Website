@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,700');
 // @import url('https://fonts.googleapis.com/css?family=Fira+Mono');
 
+/*
 @font-face {
     font-family: 'Fira Code';
     src: local('Fira Code Light'), local('FiraCode-Light'),
@@ -27,11 +28,11 @@
     font-weight: bold;
     font-style: normal;
 }
+*/
 
 @font-face {
     font-family: 'Fira Code';
     src: local('Fira Code Regular'), local('FiraCode-Regular'),
-        url('./fonts/FiraCode-Regular.woff2') format('woff2'),
         url('./fonts/FiraCode-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
