@@ -1,5 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Catamaran:300,400,700');
-@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+// @import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+@font-face {
+    font-family: 'Fira Code';
+    src: local('Fira Code Light'), local('FiraCode-Light'),
+        url('./fonts/FiraCode-Light.woff2') format('woff2'),
+        url('./fonts/FiraCode-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Code Retina';
+    src: local('Fira Code Retina'), local('FiraCode-Retina'),
+        url('./fonts/FiraCode-Retina.woff2') format('woff2'),
+        url('./fonts/FiraCode-Retina.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: local('Fira Code Bold'), local('FiraCode-Bold'),
+        url('./fonts/FiraCode-Bold.woff2') format('woff2'),
+        url('./fonts/FiraCode-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: local('Fira Code Regular'), local('FiraCode-Regular'),
+        url('./fonts/FiraCode-Regular.woff2') format('woff2'),
+        url('./fonts/FiraCode-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Fira Code';
+    src: local('Fira Code Medium'), local('FiraCode-Medium'),
+        url('./fonts/FiraCode-Medium.woff2') format('woff2'),
+        url('./fonts/FiraCode-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
 
 @tailwind preflight;
 @tailwind components;
@@ -15,7 +60,7 @@
 }
 
 .code {
-    font-family: 'Fira Mono', monospace
+    font-family: 'Fira Code', monospace
 }
 
 a, a:focus, a:active {

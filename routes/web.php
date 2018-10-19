@@ -12,3 +12,5 @@
 */
 
 Route::view('/', 'app');
+
+Route::post('/newsletter', 'MainController@newsletter')->name('newsletter');
