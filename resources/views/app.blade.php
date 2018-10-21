@@ -38,11 +38,11 @@
                     </div>
                     <div class="p-6">
 <pre class="code leading-loose text-xs md:text-base">
-is_released = (lang) -> now().year == 2019
+is_released = () -> now().year == 2019
 
 show_msg = (lang) => print(lang + " is not released")
 
-while (!is_released('nuua')) => show_msg('nuua')
+while (!is_released()) => show_msg('nuua')
 </pre>
                     </div>
                 </div>
